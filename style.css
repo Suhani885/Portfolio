@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(245, 225, 232);
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(126, 19, 74);
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    margin: 20px;
+}
+
+.box1 {
+    flex: 1;
+    justify-content: center;
+}
+
+.img {
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    flex: 2;
+    justify-content: center;
+    color: rgb(26, 154, 126);
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.7px;
+    line-height: 1.8;
+    word-spacing: 1px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+h2 {
+    color: rgb(126, 19, 74);
+    font-family: copperplate;
+}
+
+li {
+    color: rgb(26, 154, 126);
+    font-family: didot;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
