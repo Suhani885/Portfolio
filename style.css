@@ -108,12 +108,13 @@ li {
 @media (min-width: 1020px) {
     .box2 {
     letter-spacing: 1.8px;
-    line-height: 2.5;
+    line-height: 2.1;
     word-spacing: 2.5px;
-    font-size: large;
+    font-size: 20px;
     }
     li {
         letter-spacing: 1.7px;
-        line-height: 2;
+        line-height: 1.7;
+        font-size: 17px;
     }
 }
