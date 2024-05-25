@@ -6,6 +6,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(126, 19, 74);
     text-align: center;
+    font-size: 80px;
 }
 
 .flex-container {
@@ -70,7 +71,7 @@ li {
 
 .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .icon {
